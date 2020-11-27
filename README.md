@@ -6,14 +6,14 @@
   - As outputs the system will have a 8bit number result and 3 flags (overflow, negative and zero)
 
 **Operations:**
-  - add (A + B) opc: 000
-  - sub (A - B) opc: 001
-  - inc (A + 1) opc: 010
-  - dec (A - 1) opc: 011
-  - neg (-A)    opc: 100
-  - not (~A)    opc: 101
-  - and (A ^ B) opc: 110
-  - or (A v B)  opc: 111
+  - add: opc->000 (A + B)
+  - sub: opc->001 (A - B)
+  - inc: opc->010 (A + 1)
+  - dec: opc->011 (A - 1)
+  - neg: opc->100 (-A)
+  - not: opc->101 (~A)
+  - and: opc->110 (A ^ B)
+  - or : opc->111 (A v B)
 
 **Schematic/Diagram:**
   ![alt text](https://github.com/dma-neves/VHDL_ALU/blob/main/alu_diag.png)
