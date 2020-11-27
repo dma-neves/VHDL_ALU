@@ -5,16 +5,7 @@
   - The ALU will have 2 8bit input numbers A and B and a 3bit OpCode opc.
   - As outputs the system will have a 8bit number result and 3 flags (overflow, negative and zero)
 
-**Operations:**
-  - add: opc->000 (A + B)
-  - sub: opc->001 (A - B)
-  - inc: opc->010 (A + 1)
-  - dec: opc->011 (A - 1)
-  - neg: opc->100 (-A)
-  - not: opc->101 (~A)
-  - and: opc->110 (A ^ B)
-  - or : opc->111 (A v B)
-  
+**Operations:**  
   - opc 000: add (A + B)
   - opc 001: sub (A - B)
   - opc 010: inc (A+1)
