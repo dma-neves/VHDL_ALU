@@ -10,6 +10,8 @@ end isZero;
 
 architecture Behavioral of isZero is
 
+begin
+
 isZero <= 
 a(0) = '0' and
 a(1) = '0' and
@@ -18,10 +20,7 @@ a(3) = '0' and
 a(4) = '0' and
 a(5) = '0' and
 a(6) = '0' and
-a(7) = '0'
-
-begin
-
+a(7) = '0';
 
 end Behavioral;
 

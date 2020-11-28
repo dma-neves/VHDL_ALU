@@ -4,7 +4,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity ALU is
 
 Port (
-	clear : IN STD_LOGIC;
 	a : IN STD_LOGIC_VECTOR(7 downto 0);
 	b : IN STD_LOGIC_VECTOR(7 downto 0);
 	opCode : IN STD_LOGIC_VECTOR(3 downto 0);
