@@ -12,7 +12,7 @@ architecture Behavioral of isNegative is
 
 begin
 
-isNeg <= a(7) = '1';
+isNeg <= a(7) and '1';
 
 end Behavioral;
 

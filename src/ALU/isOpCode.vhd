@@ -13,7 +13,7 @@ end isOpCode;
 architecture Behavioral of isOpCode is
 begin
 
-ioc <= opc(0) = cmpOpc(0) and opc(1) = cmpOpc(1) and opc(2) = cmpOpc(2);
+ioc <= (opc(0) xnor cmpOpc(0)) and (opc(1) xnor cmpOpc(1)) and (opc(2) xnor cmpOpc(2));
 
 end Behavioral;
 

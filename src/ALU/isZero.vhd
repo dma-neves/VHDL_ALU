@@ -13,14 +13,14 @@ architecture Behavioral of isZero is
 begin
 
 isZero <= 
-a(0) = '0' and
-a(1) = '0' and
-a(2) = '0' and
-a(3) = '0' and
-a(4) = '0' and
-a(5) = '0' and
-a(6) = '0' and
-a(7) = '0';
+(not a(0)) and
+(not a(1)) and
+(not a(2)) and
+(not a(3)) and
+(not a(4)) and
+(not a(5)) and
+(not a(6)) and
+(not a(7));
 
 end Behavioral;
 
